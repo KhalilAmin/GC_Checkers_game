@@ -1,7 +1,7 @@
 import checkers
 from numpy import unique
 def game():
-    bSize = int(input("Enter the size of the board: "))
+    bSize = int(input("Enter the size of the board between 4-16: "))
     mBoard = checkers.build_board(bSize)
     print(mBoard)
     list_values = unique(mBoard)
